@@ -438,6 +438,11 @@ a:focus, a:hover, a:active {
   /*border: 1px solid rgba(0, 0, 0, 0.15);*/
 }
 
+@media (min-width: 992px) {
+  .dropdown:hover .dropdown-menu {
+    display: block;
+  }
+}
 
 
 .intrinsic-container {
