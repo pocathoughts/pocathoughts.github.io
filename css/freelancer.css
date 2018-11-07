@@ -10,6 +10,7 @@ h5,
 h6 {
   font-weight: 100;
   font-family: 'Open Sans', sans-serif;
+  color: #4c4c4c;
 }
 
 hr.star-light,
@@ -353,11 +354,13 @@ a:focus, a:hover, a:active {
 
 .bg-primary {
   background-color: #ff9966 !important;
+  border-radius: 0 !important;
 }
 
 .bg-secondary {
   /*background-color: #2C3E50 !important;*/
   background-color: #333333 !important;
+  border-radius: 0 !important;
 }
 
 .text-primary {
@@ -435,6 +438,8 @@ a:focus, a:hover, a:active {
 .custom-dropdown-menu {
   padding-left: 10px !important;
   border: none !important;
+  top: 40px;
+  border-radius: 0 !important;
   /*border: 1px solid rgba(0, 0, 0, 0.15);*/
 }
 
@@ -444,6 +449,18 @@ a:focus, a:hover, a:active {
   }
 }
 
+
+@media (min-width: 992px) {
+  .contact-bars-small {
+    padding-right: 100px
+  }
+}
+
+
+.vertically-center {
+  margin-top: auto;
+  margin-bottom: auto;
+}
 
 .intrinsic-container {
   position: relative;

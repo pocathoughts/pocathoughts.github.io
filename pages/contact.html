@@ -30,37 +30,46 @@
 
   <body id="page-top">
 
-    <nav class="navbar navbar-expand-lg top-nav text-uppercase"  style="background: transparent;">
+    <nav class="navbar navbar-expand-lg top-nav  fixed-top text-uppercase" style="background: transparent" id="mainNav">
       <div class="container">
-          <a href="../index.html">
-            <h3 class="mont-header text-white"> InEscrow </h3>
-          </a>
+           <a href="index.html">
+          <h1 class="mont-header text-white"> InEscrow</h1></a>
             <!--<a class="navbar-brand js-scroll-trigger" href="#page-top"> Iron Oak Crossfit</a>-->
 
-        <!--Collapsible button for mobile view-->
         <button class="navbar-toggler navbar-toggler-right text-uppercase bg-primary text-white rounded text-center" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           Menu
           <i class="fa fa-bars"></i>
         </button>
 
-
-        <div class="collapse navbar-collapse" style="background: transparent" id="navbarResponsive">
-          <ul style="font-family: 'Montserrat', sans-serif;" class="navbar-nav ml-auto">
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul style="font-family: 'Montserrat', sans-serif; background-color: #ff9966" class="menu-bar  navbar-nav ml-auto">
             <li class="nav-item mx-0 mx-lg-1">
-              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger text-white" href="about.html"><strong>About</strong></a>
+              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="pages/about.html">About</a>
             </li>
-             <li class="nav-item mx-0 mx-lg-1">
-              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger text-white" href="realtors.html"><strong>Realtors</strong></a>
+             
+             <li class="nav-item dropdown">
+              <a href="realtors.html" class="dropdown-toggle py-3 px-0 px-lg-3 nav-link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Realtors<span class="caret"></span></a>
+              <ul class="dropdown-menu custom-dropdown-menu">
+                <li ><a href="#">Overview</a></li>
+                <li ><a href="#">Resources</a></li>
+               </ul>
             </li>
-            <li class="nav-item mx-0 mx-lg-1">
-              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger text-white" href="titlecompanies.html"><strong>Title Companies</strong></a>
+            <li class="nav-item dropdown">
+              <a href="titlecompanies.html" class=" py-3 px-0 px-lg-3 nav-link"  role="button" aria-haspopup="true" aria-expanded="false">Title Companies <span class="caret"></span></a>
+              <ul class="dropdown-menu custom-dropdown-menu">
+                <li ><a href="#">Overview</a></li>
+                <li ><a href="#">Resources</a></li>
+                <li ><a href="#">Pricing</a></li>
+               </ul>
             </li>
             
-            <li class="nav-item mx-0 mx-lg-1">
-              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger text-white" href="contact.html"><strong>Contact Us</strong></a>
             </li>
             <li class="nav-item mx-0 mx-lg-1">
-              <a class="btn btn-primary nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="contact.html"><strong>LOGIN</strong></a>
+              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="pages/contact.html">Contact Us</a>
+            </li>
+            
+           <li class="nav-item mx-0 mx-lg-1">
+              <a class="btn btn-primary nav-link py-3 px-0 px-lg-3 js-scroll-trigger" href="pages/contact.html"><strong>LOGIN</strong></a>
             </li>
           </ul>
         </div>
