@@ -277,7 +277,7 @@ header.masthead h2 {
 
 .floating-label-form-group {
   position: relative;
-  border-bottom: 1px solid #da601c;
+  border-bottom: 1px solid #3ea9f5;
 }
 
 .floating-label-form-group input,
@@ -440,7 +440,29 @@ a:focus, a:hover, a:active {
   border: none !important;
   top: 40px;
   border-radius: 0 !important;
-  /*border: 1px solid rgba(0, 0, 0, 0.15);*/
+  /*bor
+
+  der: 1px solid rgba(0, 0, 0, 0.15);*/
+}
+
+.visible-phone{
+@media (max-width: 992px) { more css }
+}
+
+.visible-desktop{
+@media (min-width: 992px) { more css }
+}
+
+@media screen and (max-width: 992px) {
+  .mobile-only {
+    display: none;
+  }
+}
+
+@media (min-width: 992px) {
+  .dropdown:hover .dropdown-menu {
+    display: block;
+  }
 }
 
 @media (min-width: 992px) {
@@ -451,8 +473,27 @@ a:focus, a:hover, a:active {
 
 
 @media (min-width: 992px) {
-  .contact-bars-small {
-    padding-right: 100px
+  .contact-us-right {
+    padding-right: 120px;
+  }
+}
+
+@media (min-width: 992px) {
+  .contact-us-left {
+    padding-left: 120px;
+  }
+}
+
+@media (min-width: 992px) {
+  .not-large {
+    display: none;
+  }
+}
+
+
+@media (max-width: 992px) {
+  .not-small {
+    display: none;
   }
 }
 
