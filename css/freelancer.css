@@ -436,7 +436,7 @@ a:focus, a:hover, a:active {
 }
 
 .custom-dropdown-menu {
-  padding-left: 10px !important;
+  text-align: center;
   border: none !important;
   top: 40px;
   border-radius: 0 !important;
@@ -445,13 +445,18 @@ a:focus, a:hover, a:active {
   der: 1px solid rgba(0, 0, 0, 0.15);*/
 }
 
-.visible-phone{
-@media (max-width: 992px) { more css }
+@media screen and (min-width: 768px) {
+  .about-header-image {
+    background-image: url('../img/backgrounds/about-inescrow2.png');
+  }
 }
 
-.visible-desktop{
-@media (min-width: 992px) { more css }
+@media screen and (max-width: 768px) {
+  .about-header-image {
+    background-image: url('../img/backgrounds/about-inescrow-small.png');
+  }
 }
+
 
 @media screen and (max-width: 992px) {
   .mobile-only {
