@@ -610,6 +610,11 @@ a:focus, a:hover, a:active {
     background-color: white;
 }
 
+.liam {
+    background-image: url("../img/icons/profilefun.png");
+    background-size: contain;
+}
+
 .divider{
     width:35px;
     height:auto;

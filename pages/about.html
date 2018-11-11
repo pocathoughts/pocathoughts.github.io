@@ -33,6 +33,55 @@
     display: block;    
 }
     </style>
+
+    <script type="text/javascript">
+     
+     /* This program will swap an image when it is clicked by using the getElementById() method
+     The program will use an image_tracker variable to keep track of which image is currently displayed
+     We can use an IF statement to check if the orange picture is being displayed,
+     then swap with the blue one, and vice versa.
+     */ 
+     
+     var image_tracker = 'normal';
+     
+     function changeBrenda(){
+     var image = document.getElementById('brenda');
+     if(image_tracker=='normal'){
+     image.src='../img/icons/profile.png';
+     image_tracker='fun';
+     }
+     else{
+     image.src='../img/icons/profilefun.png';
+     image_tracker='normal';
+     }
+     }
+
+     function changeMustafa(){
+     var image = document.getElementById('circle');
+     if(image_tracker=='orange'){
+     image.src='blue.png';
+     image_tracker='blue';
+     }
+     else{
+     image.src='orange.png';
+     image_tracker='orange';
+     }
+     }
+
+     function changeChristine(){
+     var image = document.getElementById('circle');
+     if(image_tracker=='orange'){
+     image.src='blue.png';
+     image_tracker='blue';
+     }
+     else{
+     image.src='orange.png';
+     image_tracker='orange';
+     }
+     }
+     
+     </script>
+
   </head>
 
   <body id="page-top">
@@ -191,40 +240,87 @@
       </div>
    </section>
  -->
-
-
-   <section class=" "   id="about" >
+ <section class="portfolio" id="portfolio">
       <div class="container">
-        <h2 class="text-center text-uppercase mont-header  ">OUR TEAM</h2>
+           <h2 class="text-center text-uppercase mont-header  ">OUR TEAM</h2>
+                <div class="spacer"></div>
          <div class="spacer"></div>
         <div class="spacer"></div>
-         <div class="spacer"></div>
-        <div class="spacer"></div>
-       
+          <div class="spacer"></div>
         <div class="row">
-          <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12" style="padding-bottom: 30px">
-            <img class="img-fluid" src="../img/icons/chrisprofile.png"/>
-            <h3 class="mont-header"> Brenda Doe </h3>
+          
+          
+     
+         
+          <div class="col-md-6 col-lg-4">
+            <a class="portfolio-item d-block mx-auto" >
+              <div class="liam portfolio-item-caption d-flex position-absolute h-100 w-100"> 
+              </div>
+              <img class="img-fluid" src="../img/icons/profile.png" alt="">
+            </a>
+            <h3 class="mont-header"> Brenda Hernandez </h3>
             <h3> CEO/Realtor </h3>
           </div>
-          <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12" style="padding-bottom: 30px">
-            <img class="img-fluid" src="../img/icons/chrisprofile.png"/>
+          <div class="col-md-6 col-lg-4">
+            <a class="portfolio-item d-block mx-auto" href="#nikki-modal">
+              <div class="liam portfolio-item-caption d-flex position-absolute h-100 w-100">
+              </div>
+              <img class="img-fluid" src="../img/icons/profile.png" alt="">
+               
+            </a>
+
+             <h3 class="mont-header"> Patrick Wolf </h3>
+             <h3> Product Owner </h3>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <a class="portfolio-item d-block mx-auto" href="#liam-modal">
+              <div class="liam portfolio-item-caption d-flex position-absolute h-100 w-100">
+                
+              </div>
+              <img class="img-fluid" src="../img/icons/profile.png" alt="">
+               
+            </a>
+
              <h3 class="mont-header"> Mustafa Doe </h3>
              <h3> Developer </h3>
           </div>
-          <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12" style="padding-bottom: 30px">
-            <img class="img-fluid" src="../img/icons/chrisprofile.png"/>
-             <h3 class="mont-header"> Patrick Doe </h3>
-             <h3> Product Owner </h3>
+          <!--
+          <div class="col-md-6 col-lg-4">
+            <a class="d-block mx-auto" >
+              <div class="position-absolute h-100 w-100">
+                <div class=" w-100 text-center text-white">
+
+                </div>
+              </div>
+              <img class="img-fluid" src="../img/coaches/blackTree.png" alt="">
+            </a>
           </div>
-       
+          <div class="col-md-6 col-lg-4">
+            <a class="d-block mx-auto">
+              <div class="d-flex position-absolute h-100 w-100">
+                <div class="my-auto w-100 text-center text-white">
+                  
+                </div>
+              </div>
+              <img class="img-fluid" src="../img/coaches/orange.png" alt="">
+            </a>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <a class="d-block mx-auto" >
+              <div class="position-absolute h-100 w-100">
+                <div class=" w-100 text-center text-white">
+
+                </div>
+              </div>
+              <img class="img-fluid" src="../img/coaches/blackTree.png" alt="">
+            </a>
+          </div>
+        -->
         </div>
-
-         
       </div>
+    </section>
 
 
-   </section>
 
   
 
