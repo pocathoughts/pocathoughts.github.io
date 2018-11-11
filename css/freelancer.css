@@ -467,7 +467,7 @@ a:focus, a:hover, a:active {
 
 @media screen and (max-width: 768px) {
   .home-header-image {
-    background-image: url('../img/backgrounds/home-small.png');
+    background-image: url('../img/backgrounds/home-phone.png');
   }
 }
 
