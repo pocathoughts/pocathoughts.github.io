@@ -337,7 +337,8 @@ form .row:first-child .floating-label-form-group {
 }
 
 .copyright {
-  background-color: black;
+  background-color: #132a4f;
+  font-family: Open Sans, sans-serif;
 }
 
 a {
@@ -456,6 +457,45 @@ a:focus, a:hover, a:active {
     background-image: url('../img/backgrounds/about-inescrow-small.png');
   }
 }
+
+
+@media screen and (min-width: 768px) {
+  .home-header-image {
+    background-image: url('../img/backgrounds/home.png');
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .home-header-image {
+    background-image: url('../img/backgrounds/home-small.png');
+  }
+}
+
+
+@media screen and (min-width: 768px) {
+  .contact-header-image {
+    background-image: url('../img/backgrounds/contact-dark.png');
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .contact-header-image {
+    background-image: url('../img/backgrounds/contact-small-dark.png');
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .realtor-header-image {
+    background-image: url('../img/backgrounds/realtor-large.png');
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .realtor-header-image {
+    background-image: url('../img/backgrounds/realtor-small.png');
+  }
+}
+
 
 
 @media screen and (max-width: 992px) {
