@@ -143,7 +143,13 @@ var waypoints = $('.header-left').waypoint(function(direction) {
 
 
 var waypoints = $('.fade').waypoint(function(direction) {
-  $('.fade').addClass('fadein-1');
+  $('.fade').addClass('fade-effect');
+}, {
+  offset: '50%'
+})
+
+var waypoints = $('.fade1').waypoint(function(direction) {
+  $('.fade1').addClass('fadein-1');
 }, {
   offset: '50%'
 })
