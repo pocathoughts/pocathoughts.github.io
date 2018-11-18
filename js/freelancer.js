@@ -131,13 +131,13 @@ var waypoints = $('.slide-right-effect').waypoint(function(direction) {
 var waypoints = $('.header-fade').waypoint(function(direction) {
   $('.header-fade').addClass('fadein-1');
 }, {
-  offset: '30%'
+  offset: '25%'
 })
 
 var waypoints = $('.header-left').waypoint(function(direction) {
   $('.header-left').addClass('headerslideright');
 }, {
-  offset: '30%'
+  offset: '25%'
 })
 
 
