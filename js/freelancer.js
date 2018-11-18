@@ -79,3 +79,43 @@
   });
 
 })(jQuery); // End of use strict
+
+$(window).scroll(function () {
+    var y = $(window).scrollTop(),
+        x = $('.animated').offset().top - 600;
+    if (y > x) {
+        $('.animated').addClass('fadeInUp').removeClass('fadeOutDown');
+    } 
+});
+
+/*
+var waypoints = $('#handler-first').waypoint(function(direction) {
+  alert(this.element.id + ' hit 25% from top of window') 
+}, {
+  offset: '60%'
+})*/
+
+var waypoints = $('#fade-in-effect').waypoint(function(direction) {
+  $('#fade-in-effect').addClass('fadein-1');
+}, {
+  offset: '100%'
+})
+
+/*
+$('.hi').each(function() {
+  new Waypoint.Inview({
+    element: this,
+    entered: function(direction) {
+      $('.hi').addClass('fadein-1');
+    }
+  });
+});
+
+*/
+
+
+var waypoints = $('.hi').waypoint(function(direction) {
+  $('.hi').addClass('fadein-1');
+}, {
+  offset: '100%'
+})

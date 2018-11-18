@@ -301,18 +301,53 @@ body {
   }
 }
 
-h6{
+.fadein {
   animation-duration: 2s;
   animation-name: fadein;
 }
+
+.fadein-1, .fadein-2, .fadein-3 {
+  opacity: 0;
+  animation: fadein ease 2s forwards;
+
+}
+
+.fadein-2 {
+
+  animation-delay: 0.4s;
+
+}
+
+.fadein-3{
+
+  animation-delay: 0.8s;
+
+
+}
+
+
 @keyframes fadein {
   from {
-    opacity: 0;
+    opacity: 0 !important;
     transform: translateY(100%);
   }
   to {
     opacity: 1;
   }
+}
+
+
+.agent-1, .agent-3 {
+  animation-name: fadein 0.4s forwards;
+}
+
+.agent-2 {
+  animation-name: fadein;
+  animation-delay: 0.4s;
+}
+
+.agent-3 {
+  animation-delay: 0.8s;
 }
 
 
