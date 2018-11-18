@@ -288,8 +288,30 @@ body {
 }
 
 
+.slideleft {
+  animation-duration: 3s;
+  animation-name: slideinleft;
+}
 
-@keyframes slidein {
+.slideright {
+    animation-duration: 3s;
+    animation-name: slideinright;
+}
+
+
+@keyframes slideinright {
+  from {
+    margin-left: -100%;
+    width: 300%; 
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+@keyframes slideinleft {
   from {
     margin-left: 100%;
     width: 300%; 
@@ -301,26 +323,50 @@ body {
   }
 }
 
+@keyframes slidein {
+    from {
+    left: 00%;
+  }
+
+  to {
+    /* left: auto; */
+    left: 100%;
+  }
+}
+
+@keyframes slideinright {
+  from {
+    margin-right: 0%;
+    width: 100%; 
+  }
+
+  to {
+    margin-right: 100%;
+    width: 100%;
+  }
+}
+
 .fadein {
-  animation-duration: 2s;
+  animation-duration: 3s;
   animation-name: fadein;
 }
 
 .fadein-1, .fadein-2, .fadein-3 {
   opacity: 0;
   animation: fadein ease 2s forwards;
+  animation-delay: 0.4s;
 
 }
 
 .fadein-2 {
 
-  animation-delay: 0.4s;
+  animation-delay: 0.8s;
 
 }
 
 .fadein-3{
 
-  animation-delay: 0.8s;
+  animation-delay: 1.2s;
 
 
 }

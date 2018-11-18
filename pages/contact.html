@@ -20,7 +20,7 @@
     <link href="../vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,900" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">
 
     <link href="../vendor/magnific-popup/magnific-popup.css" rel="stylesheet" type="text/css">
 
@@ -97,7 +97,7 @@
         <div class="container">
             <div class="row" style="margin-top: auto; margin-bottom: auto">
                 <div style="margin-top: auto; margin-bottom: auto; padding-bottom: 40px" class="col-12">
-                    <h1 class="text-uppercase mb-0 mont-header text-white">contact us</h1>
+                    <h1 class="text-uppercase mb-0 mont-header header-fade text-white">contact us</h1>
                 </div>
                 <div style="margin-top: auto; margin-bottom: auto;" class="col-12">
                     <h5 class="text-uppercase mb-0 mont-header text-white">A little blurb about our customer service or something</h5>
@@ -113,7 +113,7 @@
 
    <section class="darkest-gradient"  style="padding: 2em;" id="about">
       
-      <h5 class="text-center  text-white">Let us help you manage your escrows digitally, at the click of a button.
+      <h5 class="text-center header-fade text-white">Let us help you manage your escrows digitally, at the click of a button.
       </h5>
 
    </section>
@@ -388,10 +388,34 @@
     <!-- Schedule Section -->
     <section class="mb-0 " id="">
       <div class="container">
-        <h2 class="text-center text-uppercase text-primary mont-header">How Can We Help?</h2>
+        <h2 class="text-center fade text-uppercase text-primary mont-header">How Can We Help?</h2>
         <hr class="separator mb-5 text-primary" />
         
-        
+        <style style="text/css">
+div.slide-right {
+  width:100%;
+  overflow:hidden;
+}
+div.slide-right p {
+  animation: 5s slide-right;
+}
+
+@keyframes slide-right {
+  from {
+    margin-left: -100% !important;
+    width: 300% !important; 
+  }
+
+  to {
+    margin-left: 0% !important;
+    width: 100% !important;
+  }
+}
+</style>
+
+<div class="slide-right">
+<p>Everything is funny, as long as it's happening to somebody else.</p>
+</div>
       </div>
     </section>
 
@@ -518,10 +542,12 @@
     </div>
 
    
-
     <!-- Bootstrap core JavaScript -->
     <script src="../vendor/jquery/jquery.min.js"></script>
     <script src="../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+     <script src="../js/waypoints-lib/jquery.waypoints.min.js"></script>
+    <script src="../js/waypoints-lib/noframework.waypoints.min.js"></script>
+
 
     <!-- Plugin JavaScript -->
     <script src="../vendor/jquery-easing/jquery.easing.min.js"></script>
@@ -530,10 +556,10 @@
     <!-- Contact Form JavaScript -->
     <script src="../js/jqBootstrapValidation.js"></script>
     <script src="../js/contact_me.js"></script>
-    <script src="../js/modal.js"></script>
 
     <!-- Custom scripts for this template -->
-    <script src="../js/freelancer.min.js"></script>
+    <script src="../js/freelancer.js"></script>
+
 
 
 

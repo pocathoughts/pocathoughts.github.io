@@ -115,9 +115,15 @@ $('.hi').each(function() {
 
 */
 
+var waypoints = $('.header-fade').waypoint(function(direction) {
+  $('.header-fade').addClass('fadein-1');
+}, {
+  offset: '30%'
+})
 
-var waypoints = $('.fade1').waypoint(function(direction) {
-  $('.fade1').addClass('fadein-1');
+
+var waypoints = $('.fade').waypoint(function(direction) {
+  $('.fade').addClass('fadein-1');
 }, {
   offset: '100%'
 })
