@@ -520,12 +520,14 @@ a:focus, a:hover, a:active {
 @media screen and (min-width: 768px) {
   .home-header-image {
     background-image: url('../img/backgrounds/home.png');
+    background-attachment: fixed;
   }
 }
 
 @media screen and (max-width: 768px) {
   .home-header-image {
     background-image: url('../img/backgrounds/home-small-xs.png');
+    background-attachment: fixed;
   }
 }
 
@@ -533,24 +535,28 @@ a:focus, a:hover, a:active {
 @media screen and (min-width: 768px) {
   .contact-header-image {
     background-image: url('../img/backgrounds/contact-dark.png');
+    background-attachment: fixed;
   }
 }
 
 @media screen and (max-width: 768px) {
   .contact-header-image {
     background-image: url('../img/backgrounds/contact-small-dark.png');
+    background-attachment: fixed;
   }
 }
 
 @media screen and (min-width: 768px) {
   .realtor-header-image {
     background-image: url('../img/backgrounds/realtor-large.png');
+    background-attachment: fixed;
   }
 }
 
 @media screen and (max-width: 768px) {
   .realtor-header-image {
     background-image: url('../img/backgrounds/realtor-small.png');
+    background-attachment: fixed;
   }
 }
 
