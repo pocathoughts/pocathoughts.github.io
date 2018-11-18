@@ -287,6 +287,46 @@ body {
   border: none;
 }
 
+
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%; 
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+h6{
+  animation-duration: 2s;
+  animation-name: fadein;
+}
+@keyframes fadein {
+  from {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+
+
+.
+.leFadeInBottom span { animation-name: leFadeInBottom }
+@keyframes leFadeInBottom {
+    from {
+        opacity: 0;
+        transform: translateY(100%);
+    }
+    to { opacity: 1 }
+}
+
 /* media queries  */
 @media screen and (min-width:768px) {
   .img-featured-container .description-container .caption {
