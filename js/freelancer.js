@@ -80,6 +80,7 @@
 
 })(jQuery); // End of use strict
 
+/*
 $(window).scroll(function () {
     var y = $(window).scrollTop(),
         x = $('.animated').offset().top - 600;
@@ -87,6 +88,7 @@ $(window).scroll(function () {
         $('.animated').addClass('fadeInUp').removeClass('fadeOutDown');
     } 
 });
+*/
 
 /*
 var waypoints = $('#handler-first').waypoint(function(direction) {
@@ -95,8 +97,8 @@ var waypoints = $('#handler-first').waypoint(function(direction) {
   offset: '60%'
 })*/
 
-var waypoints = $('#fade-in-effect').waypoint(function(direction) {
-  $('#fade-in-effect').addClass('fadein-1');
+var waypoints = $('.fade-in-effect').waypoint(function(direction) {
+  $('.fade-in-effect').addClass('fadein-1');
 }, {
   offset: '100%'
 })
@@ -114,8 +116,20 @@ $('.hi').each(function() {
 */
 
 
-var waypoints = $('.hi').waypoint(function(direction) {
-  $('.hi').addClass('fadein-1');
+var waypoints = $('.fade1').waypoint(function(direction) {
+  $('.fade1').addClass('fadein-1');
+}, {
+  offset: '100%'
+})
+
+var waypoints = $('.fade2').waypoint(function(direction) {
+  $('.fade2').addClass('fadein-2');
+}, {
+  offset: '100%'
+})
+
+var waypoints = $('.fade3').waypoint(function(direction) {
+  $('.fade3').addClass('fadein-3');
 }, {
   offset: '100%'
 })
