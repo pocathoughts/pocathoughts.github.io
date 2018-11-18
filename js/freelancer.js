@@ -114,6 +114,19 @@ $('.hi').each(function() {
 });
 
 */
+var waypoints = $('.slide-left-effect').waypoint(function(direction) {
+  $('.slide-left-effect').addClass('slideleft');
+}, {
+  offset: '80%'
+})
+
+
+var waypoints = $('.slide-right-effect').waypoint(function(direction) {
+  $('.slide-right-effect').addClass('slideright');
+}, {
+  offset: '80%'
+})
+
 
 var waypoints = $('.header-fade').waypoint(function(direction) {
   $('.header-fade').addClass('fadein-1');
@@ -121,21 +134,28 @@ var waypoints = $('.header-fade').waypoint(function(direction) {
   offset: '30%'
 })
 
+var waypoints = $('.header-left').waypoint(function(direction) {
+  $('.header-left').addClass('headerslideright');
+}, {
+  offset: '30%'
+})
+
+
 
 var waypoints = $('.fade').waypoint(function(direction) {
   $('.fade').addClass('fadein-1');
 }, {
-  offset: '100%'
+  offset: '50%'
 })
 
 var waypoints = $('.fade2').waypoint(function(direction) {
   $('.fade2').addClass('fadein-2');
 }, {
-  offset: '100%'
+  offset: '50%'
 })
 
 var waypoints = $('.fade3').waypoint(function(direction) {
   $('.fade3').addClass('fadein-3');
 }, {
-  offset: '100%'
+  offset: '50%'
 })
