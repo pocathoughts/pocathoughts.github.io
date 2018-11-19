@@ -101,7 +101,7 @@ if ( $(window).width() > 992) {
   var waypoints = $('.header-fade').waypoint(function(direction) {
       $('.header-fade').addClass('fade-effect-large');
     }, {
-      offset: '50%'
+      offset: '80%'
     }) 
 } 
 else {
