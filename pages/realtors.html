@@ -36,9 +36,8 @@
           <h1 class="mont-header text-white"> InEscrow</h1></a>
             <!--<a class="navbar-brand js-scroll-trigger" href="#page-top"> Iron Oak Crossfit</a>-->
 
-        <button class="navbar-toggler navbar-toggler-right text-uppercase bg-primary text-white rounded text-center" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          Menu
-          <i class="fa fa-bars"></i>
+        <button class="navbar-toggler navbar-toggler-right menu-button text-uppercase text-white text-center" id="myBtn" type="button"  style="max-width: 50px" >
+          <i style="float:right" class="fa fa-2x fa-bars"></i>
         </button>
 
         <div class="collapse navbar-collapse" id="navbarResponsive">
@@ -51,7 +50,7 @@
               <a href="realtors.html" class="dropdown-toggle py-3 px-0 px-lg-3 nav-link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Realtors<span class="caret"></span></a>
               <ul class="dropdown-menu custom-dropdown-menu">
                 <li ><a href="realtors.html">Overview</a></li>
-                                <li ><a href="realtorfaq.html">FAQ</a></li>
+                                <li ><a href="realtorsfaq.html">FAQ</a></li>
                 <li ><a href="realtor-resources.html">Resources</a></li>
                </ul>
             </li>
@@ -100,8 +99,8 @@
         <div class="container">
             <div class="row" style="margin-top: auto; margin-bottom: auto">
                 <div style="margin-top: auto; margin-bottom: auto;" class="col-12">
-                    <h1 class="text-uppercase header-fade mb-0 mont-header text-white">Relationships With<br/> Realtors</h1>
-                    <hr style="border-color: : white" class="separator"/>
+                    <h1 class="text-uppercase header-left mb-0 mont-header text-white">Relationships With<br/> Realtors</h1>
+            
                     <div class="spacer"></div>
                     <h5 class="text-white"> Less Trips. Less Hassle.</h5>
                 </div>
@@ -164,16 +163,16 @@
             <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12" style="padding-bottom: 30px">
             <div class="container white-background" style=" border-width: 1px; border-style: solid; border-color: #E6E5E6; padding: 30px 30px 30px 30px;">
 
-              <img height="50px" src="../img/icons/one.png"/>
+
               <div class="spacer"></div>
-              <div class="spacer"></div>
+     
           
-              <img height="100px" class="fade" src="../img/icons/mortgage.png"/>
+              <img height="100px" class="fade1" src="../img/icons/mortgage.png"/>
 
               <div class="spacer"></div>
               <div class="spacer"></div>
 
-              <h2  class="mont-header fade"> Take A Listing </h2>
+              <h2  class="mont-header fade1"> Take A Listing </h2>
 
 
 
@@ -185,12 +184,10 @@
 
           <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12" style="padding-bottom: 30px">
             <div class="container white-background" style=" border-width: 1px; border-style: solid; border-color:  #E6E5E6; padding: 30px 30px 30px 30px;">
-              
-               
-              <img height="50px"  src="../img/icons/two.png"/> 
+            
 
               <div class="spacer"></div>
-              <div class="spacer"></div>
+ 
 
               <img height="100px" class="fade2"  src="../img/icons/add-listing.png"/>
 
@@ -207,18 +204,15 @@
 
           <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12" style="padding-bottom: 30px">
             <div class="container white-background" style=" border-width: 1px; border-style: solid; border-color:  #E6E5E6; padding: 30px 30px 30px 30px;">
-              
-              <img height="50px"  src="../img/icons/two.png"/>
+              <div class="spacer"></div>
 
-              <div class="spacer"></div>
-              <div class="spacer"></div>
 
               <img height="100px" class="fade3"  src="../img/icons/mobilepower.png"/>
 
               <div class="spacer"></div>
               <div class="spacer"></div>
 
-              <h2 class="mont-header fade3" > Sign Up Your Seller </h2>
+              <h2 class="mont-header fade3" > Register Sellers </h2>
 
               <h4><br/>
                 We developed an application that allows you to easily pay off escrow balances. What we also developed was a solution to waiting in line, missing deadlines, and avoiding traffic.
@@ -498,6 +492,7 @@
 
 
    <!-- Contact Section -->
+   <!--
     <section class="mb-0" id="about" style="background-color: #f8f8f8">
       <div class="container">
       
@@ -537,6 +532,7 @@
           <div class="col-lg-8 mx-auto">
             <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
             <!-- The form should work on most web servers, but if the form is not working you may need to configure your web server differently. -->
+            <!--
             <form name="sentMessage" id="contactForm" style="font-family: Open Sans" novalidate="novalidate">
               <div class="control-group">
                 <div class="form-group floating-label-form-group controls mb-0 pb-2">
@@ -663,7 +659,7 @@
     </div>
 
     </section>
-
+  -->
 
 
 
@@ -729,13 +725,72 @@
       </a>
     </div>
 
-   
+<!-- The Modal -->
+    <div id="myModal" class="menu-bar  navbar-nav  navbar modal" style="min-height: 100%; padding-top:35px;padding-right:0 !important">
 
+      <!-- Modal content -->
+      <div class="" style="min-height: 100%">
+     
+        <div style="float: right; padding-right: 45px; opacity: 1; font-color: white" class="close">&times;</div>
+       
+        <div class="text-center">
+          <div class="spacer"></div>
+          <div class="spacer"></div>
+
+
+          <div class="nav-item dropdown">
+            <a class="nav-link text-uppercase mont-header mont-header text-white py-3 px-0 px-lg-3 nav-link" id="menu1" style="font-size: 25px" role="button" aria-haspopup="true"   href="about.html" >About</a>
+          </div>
+
+
+          <div class="nav-item dropdown">
+            <a class="nav-link text-uppercase mont-header mont-header text-white dropdown-toggle py-3 px-0 px-lg-3 nav-link" id="menu1" style="font-size: 25px" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"  href="realtors.html" >Realtors
+            <span class="caret"></span></a>
+            <ul class="dropdown-menu custom-dropdown-menu" style="background-color: rgba(62,169,245, 0.8);">
+              <li ><a role="menuitem" class="mont-header text-white" href="realtors.html">Overview</a></li>
+              <li ><a role="menuitem" tabindex="-1" class="mont-header text-white" href="realtorsfaq.html">FAQ</a></li>
+              <li ><a role="menuitem" tabindex="-1" class="mont-header text-white" href="realtor-resources.html">Resources</a></li>
+            </ul>
+          </div>
+
+          <div class="nav-item dropdown">
+            <a class="nav-link text-uppercase mont-header mont-header text-white dropdown-toggle py-3 px-0 px-lg-3 nav-link" id="menu1" style="font-size: 25px" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"  href="titlecompanies.html" >Title Companies
+            <span class="caret"></span></a>
+            <ul class="dropdown-menu custom-dropdown-menu" style="background-color: rgba(62,169,245, 0.8);">
+              <li ><a role="menuitem" class="mont-header text-white" href="titlecompanies.html">Overview</a></li>
+              <li ><a role="menuitem" tabindex="-1" class="mont-header text-white" href="titlecompaniesfaq.html">FAQ</a></li>
+              <li ><a role="menuitem" tabindex="-1" class="mont-header text-white" href="titlecompanies-resources.html">Resources</a></li>
+              <li ><a role="menuitem" tabindex="-1" class="mont-header text-white" href="pricing.html">Pricing</a></li>
+            </ul>
+          </div>
+
+           <div class="nav-item dropdown">
+            <a class="nav-link text-uppercase mont-header mont-header text-white py-3 px-0 px-lg-3 nav-link" id="menu1" style="font-size: 25px" role="button" aria-haspopup="true"   href="contact.html" >Contact us</a>
+          </div>
+
+            <div class="spacer"></div>
+
+            <div class="col-12 text-center" style="margin-left: auto; margin-right: auto">
+              
+                <a class="mont-header  text-white btn btn-primary nav-link py-3 px-0 px-lg-3 js-scroll-trigger" style="border-radius: 0px !important; margin: 0; width:200px; margin-left: auto; margin-right: auto" href="contact.html" >LOGIN
+                </a>
+              
+          </div>
+          
+      </div>
+
+
+      </div>
+
+    </div>
+
+   
     <!-- Bootstrap core JavaScript -->
     <script src="../vendor/jquery/jquery.min.js"></script>
     <script src="../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
      <script src="../js/waypoints-lib/jquery.waypoints.min.js"></script>
     <script src="../js/waypoints-lib/noframework.waypoints.min.js"></script>
+    <script src="../js/modal.js"></script>
 
 
     <!-- Plugin JavaScript -->
