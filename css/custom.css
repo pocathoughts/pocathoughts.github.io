@@ -323,17 +323,13 @@ body {
 
 
 @keyframes slideinleft {
-  from {
-    opacity: 0 !important;
-    margin-left: 100%;
-    width: 100%; 
-  }
-
-  to {
-    margin-left: 0%;
-    width: 100%;
-    opacity: 1;
-  }
+  0% {
+        transform: translateX(150%);
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
 }
 
 @keyframes slidein {
