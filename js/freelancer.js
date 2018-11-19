@@ -97,11 +97,19 @@ var waypoints = $('#handler-first').waypoint(function(direction) {
   offset: '60%'
 })*/
 
-if ( $(window).width() > 739) {      
-  //Add your javascript for large screens here 
+if ( $(window).width() > 992) {      
+  var waypoints = $('.header-fade').waypoint(function(direction) {
+      $('.header-fade').addClass('fade-effect-large');
+    }, {
+      offset: '50%'
+    }) 
 } 
 else {
-  //Add your javascript for small screens here 
+  var waypoints = $('.header-fade').waypoint(function(direction) {
+    $('.header-fade').addClass('fade-effect-small');
+    }, {
+      offset: '90%'
+    })
 }
 
 
@@ -125,11 +133,7 @@ var waypoints = $('.slide-right-effect').waypoint(function(direction) {
 })
 
 
-var waypoints = $('.header-fade').waypoint(function(direction) {
-  $('.header-fade').addClass('fade-effect');
-}, {
-  offset: '50%'
-})
+
 
 var waypoints = $('.header-left').waypoint(function(direction) {
   $('.header-left').addClass('headerslideright');
