@@ -559,6 +559,35 @@ a:focus, a:hover, a:active {
 }
 
 @media screen and (min-width: 768px) {
+  .titlefaq-header-image {
+    background-image: url('../img/backgrounds/tcfaq.png');
+    background-attachment: fixed;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .titlefaq-header-image {
+    background-image: url('../img/backgrounds/tcfaq-small.png');
+    background-attachment: fixed;
+  }
+}
+
+
+@media screen and (min-width: 768px) {
+  .realtorfaq-header-image {
+    background-image: url('../img/backgrounds/realtorfaq.png');
+    background-attachment: fixed;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .realtorfaq-header-image {
+    background-image: url('../img/backgrounds/realtorfaq-small.png');
+    background-attachment: fixed;
+  }
+}
+
+@media screen and (min-width: 768px) {
   .realtor-header-image {
     background-image: url('../img/backgrounds/realtor-large.png');
     background-attachment: fixed;
