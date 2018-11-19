@@ -97,23 +97,20 @@ var waypoints = $('#handler-first').waypoint(function(direction) {
   offset: '60%'
 })*/
 
+if ( $(window).width() > 739) {      
+  //Add your javascript for large screens here 
+} 
+else {
+  //Add your javascript for small screens here 
+}
+
+
 var waypoints = $('.fade-in-effect').waypoint(function(direction) {
   $('.fade-in-effect').addClass('fadein-1');
 }, {
   offset: '100%'
 })
 
-/*
-$('.hi').each(function() {
-  new Waypoint.Inview({
-    element: this,
-    entered: function(direction) {
-      $('.hi').addClass('fadein-1');
-    }
-  });
-});
-
-*/
 var waypoints = $('.slide-left-effect').waypoint(function(direction) {
   $('.slide-left-effect').addClass('slideleft');
 }, {
@@ -129,15 +126,15 @@ var waypoints = $('.slide-right-effect').waypoint(function(direction) {
 
 
 var waypoints = $('.header-fade').waypoint(function(direction) {
-  $('.header-fade').addClass('fadein-1');
+  $('.header-fade').addClass('fade-effect');
 }, {
-  offset: '25%'
+  offset: '50%'
 })
 
 var waypoints = $('.header-left').waypoint(function(direction) {
   $('.header-left').addClass('headerslideright');
 }, {
-  offset: '25%'
+  offset: '40%'
 })
 
 
