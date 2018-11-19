@@ -405,12 +405,10 @@ a:focus, a:hover, a:active {
 }
 
 .btn-light-outline {
-    font-weight: 100;
-    font-family: 'Open Sans', sans-serif;
     background-color: none;
     border-color: white;
     color: white;
-    border-width: 4px;
+    border-width: 3px;
 }
 
  .btn-light-outline:hover {
@@ -733,6 +731,7 @@ a:focus, a:hover, a:active {
   }
 }
 
+/*
 .animated {
     -webkit-animation-fill-mode:both;
     -moz-animation-fill-mode:both;
@@ -845,3 +844,4 @@ a:focus, a:hover, a:active {
     -o-animation-name: fadeOutDown;
     animation-name: fadeOutDown;
 }
+*/
