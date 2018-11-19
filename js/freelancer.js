@@ -148,17 +148,17 @@ var waypoints = $('.fade').waypoint(function(direction) {
 var waypoints = $('.fade1').waypoint(function(direction) {
   $('.fade1').addClass('fadein-1');
 }, {
-  offset: '50%'
+  offset: '80%'
 })
 
 var waypoints = $('.fade2').waypoint(function(direction) {
   $('.fade2').addClass('fadein-2');
 }, {
-  offset: '50%'
+  offset: '80%'
 })
 
 var waypoints = $('.fade3').waypoint(function(direction) {
   $('.fade3').addClass('fadein-3');
 }, {
-  offset: '50%'
+  offset: '80%'
 })
