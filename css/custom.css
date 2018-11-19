@@ -356,6 +356,13 @@ body {
   }
 }
 
+/* media queries  */
+@media screen and (max-width:768px) {
+  .tofixthemediascreen{
+    display: block;
+  }
+}
+
 
 .fadein {
   opacity: 0;
@@ -381,6 +388,14 @@ body {
   opacity: 0 !important;
   animation: fadein ease 2s forwards;
 }
+
+
+@media screen and (max-width:992px) {
+  .optional-fade{
+    opacity: 0;
+  }
+}
+
 
 .fadein-1, .fadein-2, .fadein-3 {
   opacity: 0 !important;

@@ -545,6 +545,20 @@ a:focus, a:hover, a:active {
 }
 
 @media screen and (min-width: 768px) {
+  .pricing-header-image {
+    background-image: url('../img/backgrounds/pricing.png');
+    background-attachment: fixed;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .pricing-header-image {
+    background-image: url('../img/backgrounds/pricing-sm.png');
+    background-attachment: fixed;
+  }
+}
+
+@media screen and (min-width: 768px) {
   .realtor-header-image {
     background-image: url('../img/backgrounds/realtor-large.png');
     background-attachment: fixed;

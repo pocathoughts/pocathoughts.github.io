@@ -133,6 +133,13 @@ var waypoints = $('.slide-right-effect').waypoint(function(direction) {
 })
 
 
+if ( $(window).width() < 992) {      
+  var waypoints = $('.optional-fade').waypoint(function(direction) {
+      $('.optional-fade').addClass('fade-effect');
+    }, {
+      offset: '70%'
+    }) 
+} 
 
 
 var waypoints = $('.header-left').waypoint(function(direction) {
@@ -140,7 +147,6 @@ var waypoints = $('.header-left').waypoint(function(direction) {
 }, {
   offset: '40%'
 })
-
 
 
 var waypoints = $('.fade').waypoint(function(direction) {
