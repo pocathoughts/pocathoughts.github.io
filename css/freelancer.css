@@ -83,7 +83,7 @@ section h2 {
 .scroll-to-top {
   z-index: 1042;
   right: 1rem;
-  bottom: 1rem;
+  bottom: 5rem;
   display: none;
 }
 
