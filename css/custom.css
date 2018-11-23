@@ -46,6 +46,10 @@ video {
   width: 100%;
 }
 
+.nomargin{
+  margin: 0;
+}
+
 .mont-header {
   font-family: Montserrat, sans-serif;
   font-weight: 600;
@@ -86,6 +90,21 @@ video {
 
 #video-landing h1{
   font-size: 3em; 
+}
+
+.video-responsive{
+    overflow:hidden;
+    padding-bottom:50%;
+    position:relative;
+    height:0;
+}
+.video-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+
 }
 
 .dark-gradient {
@@ -391,6 +410,24 @@ body {
     opacity: 0;
   }
 }
+
+
+
+.resources-footer {
+  text-align: center;
+}
+
+
+
+@media screen and (min-width:992px) {
+  .resources-footer {
+    text-align: left;
+    padding-left: 80px;
+  }
+
+
+}
+
 
 
 .fadein-1, .fadein-2, .fadein-3 {
