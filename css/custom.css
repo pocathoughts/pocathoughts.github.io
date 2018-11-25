@@ -128,6 +128,11 @@ video {
   background-image: linear-gradient(315deg,#51b1f6 30%, #8bcbf9 80%);
 }
 
+.green-gradient {
+    background-color: #3ea8f5;
+  background-image: linear-gradient(315deg,#000000 30%, #166D3B 80%);
+}
+
 .light-background {
   background-color: #f9f8f9;
 }
