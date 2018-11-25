@@ -155,6 +155,12 @@ var waypoints = $('.fade').waypoint(function(direction) {
   offset: '50%'
 })
 
+var waypoints = $('.fade-small').waypoint(function(direction) {
+  $('.fade-small').addClass('fade-small-1');
+}, {
+  offset: '80%'
+}) 
+
 var waypoints = $('.fade1').waypoint(function(direction) {
   $('.fade1').addClass('fadein-1');
 }, {

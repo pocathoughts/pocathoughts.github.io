@@ -421,6 +421,13 @@ body {
   }
 }
 
+@media screen and (min-width:992px) {
+  .small-fade {
+    opacity: 0 !important;
+    animation: fadeinsmall ease 2s forwards;
+  }
+}
+
 
 
 .resources-footer {
@@ -438,12 +445,25 @@ body {
 
 }
 
+.small-fade {
+  opacity: 0 !important;
+}
+
+.small-fade-effect {
+  opacity: 0 !important;
+  animation: fadeinsmall ease 2s forwards; 
+}
+
 
 
 .fadein-1, .fadein-2, .fadein-3 {
   opacity: 0 !important;
-  animation: fadein ease 2s forwards;
-  
+  animation: fadein ease 2s forwards; 
+}
+
+.fade-small-1{
+  opacity: 0 !important;
+  animation: fadeinsmall ease 2s forwards;
 }
 
 .fadein-2 {
@@ -458,11 +478,26 @@ body {
   opacity: 0;
 }
 
+.fade-small {
+  opacity: 0;
+}
+
 
 @keyframes fadein {
   from {
     opacity: 0 !important;
     transform: translateY(100%);
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+
+@keyframes fadeinsmall {
+  from {
+    opacity: 0 !important;
+    transform: translateY(30%);
   }
   to {
     opacity: 1;
