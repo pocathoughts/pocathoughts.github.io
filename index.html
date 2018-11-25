@@ -43,6 +43,22 @@
 
   <body id="page-top">
 
+    <!-- Load Facebook SDK for JavaScript -->
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<!-- Your customer chat code -->
+<div class="fb-customerchat"
+  attribution=setup_tool
+  page_id="2023874254341229">
+</div>
+
     <nav class="navbar navbar-expand-lg top-nav  fixed-top text-uppercase" style="background: transparent" id="mainNav">
       <div class="container">
            <a href="index.html" style="text-decoration: none">
@@ -593,9 +609,9 @@
 
 
 
-<div class="fb-customerchat"
+    <div class="fb-customerchat"
      page_id="604238433311666"
-     minimized="true">
+     >
     </div>
 
     <script>
@@ -619,21 +635,4 @@
 
 </html>
 
-
-<!-- Video Banner Option
-
-<section style="padding-top: 0; padding-bottom: 0; margin-bottom: 0">
-  <div class="video-container">
-     <video autoplay loop muted>
-         <source src="video/IronOakVideo.mp4" type="video/mp4">
-    
-     </video>
-
-     <div class="overlay-desc" style="">
-     
-      <br/>
-                <a class="btn btn-light-contrast btn-circle" href="pages/about.html" style="border-width: 4px;" role="button"><h4>ABOUT US</h4></a>
-      </div>
-  </div>
-</section>
-  -->
+\
