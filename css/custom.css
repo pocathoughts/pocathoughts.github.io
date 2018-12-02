@@ -494,6 +494,19 @@ body {
 }
 
 
+/*
+@keyframes slideinleft {
+  0% {
+        transform: translateX(150%);
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+*/
+
+
 @keyframes fadeinsmall {
   from {
     opacity: 0 !important;
