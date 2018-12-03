@@ -317,6 +317,13 @@ body {
 }
 
 
+/* sliding css */
+
+.headerslideup {
+  opacity: 0;
+  animation: fadein ease 2s forwards;
+}
+
 .headerslideright {
   opacity: 0;
   animation: slideinright ease 2s forwards;
@@ -374,6 +381,8 @@ body {
   }
 }
 
+/* end of sliding code */
+
 /* media queries  */
 @media screen and (min-width:768px) {
   .tofixthemediascreen{
@@ -389,15 +398,30 @@ body {
 }
 
 
-.fadein {
+/* fading effects */
+
+/* html fade labels */
+.fade {
   opacity: 0;
-  animation-duration: 3s;
-  animation-name: fadein;
 }
 
-.fadein-1 {
-    animation-delay: 0.2s;
+.fade-small {
+  opacity: 0;
 }
+
+.small-fade {
+  opacity: 0 !important;
+}
+
+.header-up {
+  opacity: 0;
+}
+
+.fade1, .fade2, .fade3{
+  opacity: 0;
+}
+
+/* javascript fade adding classes */
 
 .fade-effect-large {
   opacity: 0 !important;
@@ -410,9 +434,34 @@ body {
 }
 
 .fade-effect {
-  opacity: 0 !important;
   animation: fadein ease 2s forwards;
 }
+
+.small-fade-effect {
+  opacity: 0 !important;
+  animation: fadeinsmall ease 2s forwards; 
+}
+
+.fadein-1, .fadein-2, .fadein-3 {
+  animation: fadein ease 2s forwards; 
+}
+
+.fadein-1 {
+    animation-delay: 0.2s;
+}
+
+.fadein-2 {
+  animation-delay: 0.6s;
+}
+
+.fadein-3{
+  animation-delay: 0.9s;
+}
+
+
+
+
+
 
 
 @media screen and (max-width:992px) {
@@ -421,19 +470,10 @@ body {
   }
 }
 
-@media screen and (min-width:992px) {
-  .small-fade {
-    opacity: 0 !important;
-    animation: fadeinsmall ease 2s forwards;
-  }
-}
-
-
 
 .resources-footer {
   text-align: center;
 }
-
 
 
 @media screen and (min-width:992px) {
@@ -441,57 +481,20 @@ body {
     text-align: left;
     padding-left: 80px;
   }
-
-
-}
-
-.small-fade {
-  opacity: 0 !important;
-}
-
-.small-fade-effect {
-  opacity: 0 !important;
-  animation: fadeinsmall ease 2s forwards; 
-}
-
-
-
-.fadein-1, .fadein-2, .fadein-3 {
-  opacity: 0 !important;
-  animation: fadein ease 2s forwards; 
-}
-
-.fade-small-1{
-  opacity: 0 !important;
-  animation: fadeinsmall ease 2s forwards;
-}
-
-.fadein-2 {
-  animation-delay: 0.2s;
-}
-
-.fadein-3{
-  animation-delay: 0.6s;
-}
-
-.fade1, .fade2, .fade3{
-  opacity: 0;
-}
-
-.fade-small {
-  opacity: 0;
 }
 
 
 @keyframes fadein {
-  from {
+  0% {
     opacity: 0 !important;
     transform: translateY(100%);
   }
-  to {
+  100% {
     opacity: 1;
+    transform: translateY(0);
   }
 }
+
 
 
 /*
@@ -508,29 +511,14 @@ body {
 
 
 @keyframes fadeinsmall {
-  from {
+  0% {
     opacity: 0 !important;
     transform: translateY(30%);
   }
-  to {
+  100% {
     opacity: 1;
   }
 }
-
-
-.agent-1, .agent-3 {
-  animation-name: fadein 0.4s forwards;
-}
-
-.agent-2 {
-  animation-name: fadein;
-  animation-delay: 0.4s;
-}
-
-.agent-3 {
-  animation-delay: 0.8s;
-}
-
 
 
 .

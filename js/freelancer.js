@@ -148,6 +148,12 @@ var waypoints = $('.header-left').waypoint(function(direction) {
   offset: '40%'
 })
 
+var waypoints = $('.header-up').waypoint(function(direction) {
+  $('.header-up').addClass('headerslideup');
+}, {
+  offset: '70%'
+})
+
 
 var waypoints = $('.fade').waypoint(function(direction) {
   $('.fade').addClass('fade-effect');
