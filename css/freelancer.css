@@ -604,6 +604,11 @@ a:focus, a:hover, a:active {
   }
 }
 
+  .filler-image {
+    background-image: url('../img/backgrounds/filler.png');
+    background-attachment: fixed;
+  }
+
 
 
 

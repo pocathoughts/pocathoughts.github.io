@@ -3,6 +3,9 @@ body {
   font-family: 'Lato', "Helvetica", Arial, Montserrat, Open Sans, sans-serif;
 }
 
+.b {
+  font-weight: bold;
+}
 
 body {
   text-align: center;
@@ -305,6 +308,16 @@ body {
   margin: 0 5px;
 }
 
+/* This is Jesus come to earth again */
+.box
+{
+    color: #FFF;
+    text-align: center;
+    display: flex;
+    justify-content: center; /* align horizontal */
+    align-items: center; /* align vertical */
+}
+
 /* load more button */
 #btn-instafeed-load {
   color: #fff;
@@ -421,6 +434,7 @@ body {
   opacity: 0;
 }
 
+
 /* javascript fade adding classes */
 
 .fade-effect-large {
@@ -458,16 +472,19 @@ body {
   animation-delay: 0.9s;
 }
 
-
-
-
-
-
+.no-m{
+  margin: 0;
+}
 
 @media screen and (max-width:992px) {
   .optional-fade{
     opacity: 0;
   }
+}
+
+.vc {
+  display: flex;
+  justify-content: center
 }
 
 
