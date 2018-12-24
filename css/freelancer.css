@@ -604,13 +604,50 @@ a:focus, a:hover, a:active {
   }
 }
 
-  .filler-image {
-    background-image: url('../img/backgrounds/filler.png');
-    background-attachment: fixed;
+.leverage-image {
+  background-image: url('../img/realtor-images/Leverage-Large.png');
+  background-size: cover;
+}
+
+.impress-image {
+  background-image: url('../img/realtor-images/Impress-Large.png');
+  background-size: cover;
+
+}
+
+.nomorechecks-image {
+  background-image: url('../img/realtor-images/NoMoreChecks-Large.png');
+  background-size: cover;
+}
+
+.domore-image {
+  background-image: url('../img/realtor-images/DoMore-Large.png');
+  background-size: cover;
+}
+
+.fill {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden
+}
+.fill img {
+  flex-shrink: 0;
+  min-width: 100%;
+  min-height: 100%
+}
+
+@media screen and (max-width: 992px) {
+  .desktop-optimize {
+    display: none;
   }
+}
 
-
-
+@media screen and (min-width: 992px) {
+  .mobile-optimize{
+    display: none;
+  }
+}
 
 @media screen and (max-width: 992px) {
   .mobile-only {
