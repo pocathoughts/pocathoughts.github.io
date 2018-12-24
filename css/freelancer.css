@@ -520,14 +520,14 @@ a:focus, a:hover, a:active {
 
 @media screen and (min-width: 768px) {
   .home-header-image {
-    background-image: url('../img/backgrounds/index.png');
+    background-image: url('../img/backgrounds/index-lg-2.png');
     background-attachment: fixed;
   }
 }
 
 @media screen and (max-width: 768px) {
   .home-header-image {
-    background-image: url('../img/backgrounds/index-sm.png');
+    background-image: url('../img/backgrounds/index-sm-2.png');
     background-attachment: fixed;
   }
 }
