@@ -592,14 +592,14 @@ a:focus, a:hover, a:active {
 
 @media screen and (min-width: 768px) {
   .realtor-header-image {
-    background-image: url('../img/backgrounds/realtor-large.png');
+    background-image: url('../img/backgrounds/realtor-xl-xl.png');
     background-attachment: fixed;
   }
 }
 
 @media screen and (max-width: 768px) {
   .realtor-header-image {
-    background-image: url('../img/backgrounds/realtor-small.png');
+    background-image: url('../img/backgrounds/realtor-xs.png');
     background-attachment: fixed;
   }
 }
@@ -637,13 +637,13 @@ a:focus, a:hover, a:active {
   min-height: 100%
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 800px) {
   .desktop-optimize {
     display: none;
   }
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 800px) {
   .mobile-optimize{
     display: none;
   }
